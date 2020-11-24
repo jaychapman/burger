@@ -1,0 +1,72 @@
+<header>
+    <h1>Eat da Burger!</h1>
+    <br>
+    <p class="instructions">Click the fork and knife to devour your burger</p>
+</header>
+
+<div class="container">
+
+    <div id="mainContent" class="row">
+        <!-- Display Chosen Burger -->
+        <div id="chosenDisplayArea" class="col-sm">
+            <h4>Your Burgers</h4>
+            <br>
+            <div id="burgerDisplay">
+                <!-- This line to prepend upon choice -->
+                {{!-- <p>Bacon Double Cheeseburger<button class="eatBtn"><i class="fas fa-utensils"></i></button></p> --}}
+
+                {{#each burgers}}
+                {{#unless devoured}}
+                <p>{{this.burger_name}}<button type="button" class="eatBurger" id="eatBtn" data-id="{{this.id}}"><i
+                            class="fas fa-utensils"></i></button></p>
+                <br>
+                {{/unless}}
+                {{/each}}
+
+            </div>
+        </div>
+        <!-- Choose a Burger -->
+        <div class="col-sm">
+            <div class="spacer"></div>
+            <form class="addBurgerForm">
+                <div class="form-group">
+                    <label for="addBurger">
+                        <h4>Enter a Burger</h4>
+                    </label>
+                    <input type="text" class="form-control" id="addBurger">
+                </div>
+                <div>
+                    <button id="addBurger" type="submit" class="btn btn-dark mb-2">Submit</button>
+                </div>
+            </form>
+            <div class="spacer"></div>
+        </div>
+        <!-- Devour a Burger -->
+        <div id="devouredDisplayArea" class="col-sm">
+            <h4>Devoured Burgers</h4>
+            <br>
+            <div id="burgerDevoured">
+
+                {{#each burgers}}
+                {{#if devoured}}
+                <p>{{this.burger_name}}<button type="button" class="deleteBurger" id="deleteBtn"
+                        data-id="{{this.id}}"><i class="fas fa-times"></i></button></p>
+                <br>
+                {{/if}}
+                {{/each}}
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="spacerFooter"></div>
+
+    <footer>
+        <br>
+        <p><a href='https://www.freepik.com/photos/food' target="_blank">Food photo created by freepik -
+                www.freepik.com</a></p>
+        <br>
+    </footer>
+
+</div>

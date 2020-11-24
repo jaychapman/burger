@@ -1,0 +1,139 @@
+/* Colors:
+ #9b7537
+ #783105
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    background-image: url("../img/burgerbackground2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#chosenDisplayArea{
+    text-align: left;
+}
+
+#devouredDisplayArea{
+    text-align: right;
+}
+
+#chosenDisplayArea h4, #devouredDisplayArea h4{
+    color: orange;
+}
+
+#mainContent{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#chooseBurgerBtn{
+    background-color: #783105;
+    color: white;
+}
+
+#chooseBurgerBtn :hover{
+    background-color: black;
+    color: #783105;
+}
+
+h4{
+    color: white;
+}
+
+.instructions{
+    font-size: smaller;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#chooseBurgerDropdown{
+    border: #783105 solid 1px;
+    margin: 0%;
+    background-color: #783105;
+    color: white;
+    text-decoration: none;
+    border-inline-end-color: grey;
+    box-shadow: none;
+}
+
+option{
+    box-shadow: none;
+}
+
+i{
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+#burgerDisplay{
+    text-align: left;
+}
+
+#burgerDevoured{
+    text-align: right;
+}
+
+#eatBtn, #deleteBtn{
+    size: 3rem;
+    color: orange;
+    /*color: #783105;*/
+    background-color: black;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    outline: none;
+}
+
+#eatBtn :hover, #deleteBtn :hover{
+    color: white;
+}
+
+#eatBtn :focus, #deleteBtn :focus{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.spacer{
+    height: 100px;
+}
+
+.spacerFooter{
+    height: 60px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 750px) {
+    #burgerDisplay, #burgerDevoured, #chosenDisplayArea, #devouredDisplayArea{
+        text-align: center;
+    }
+  }
