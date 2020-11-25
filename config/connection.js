@@ -11,8 +11,4 @@ if (process.env.JAWSDB_URL) {
   });
 }
 connection.connect();
-<<<<<<< HEAD
 module.exports = connection;
-=======
-module.exports = connection;
->>>>>>> 7fb8d1c2a2ce9bbd08681783feeb77a6244c4aa0
