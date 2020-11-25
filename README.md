@@ -48,4 +48,8 @@ For more information, or to check out my other projects visit my github page: [j
 
 ## License
 
+<<<<<<< HEAD
 [The MIT License](https://opensource.org/licenses/MIT)
+=======
+[The MIT License](https://opensource.org/licenses/MIT)
+>>>>>>> 7fb8d1c2a2ce9bbd08681783feeb77a6244c4aa0
