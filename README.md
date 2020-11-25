@@ -29,7 +29,7 @@ To install this application you must be running node.js and requires these node 
 
 I wanted to give this application a modern look and feel. The main image was provided courtesy of freepik: https://www.freepik.com/.
 
-![screenshot](assets/img/screenshot.jpg)
+![screenshot](/public/assets/img/screenshot.jpg)
 
 
 ## Contributing
@@ -48,8 +48,6 @@ For more information, or to check out my other projects visit my github page: [j
 
 ## License
 
-<<<<<<< HEAD
+
 [The MIT License](https://opensource.org/licenses/MIT)
-=======
-[The MIT License](https://opensource.org/licenses/MIT)
->>>>>>> 7fb8d1c2a2ce9bbd08681783feeb77a6244c4aa0
+
