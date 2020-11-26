@@ -5,6 +5,8 @@
 
 This application uses a mysql database to store user input and express-handlebars to dynamically generate html based on user interaction. You can enter the name of a burger in the text input box and when you submit the form your burger will appear on the left side of the screen. When you click the knife and fork icon your burger will be "devoured" and appear on the right side of the screen. You can also delete your "devoured" burgers.
 
+View the deployed version at heroku: https://quiet-plateau-20169.herokuapp.com/
+
 ## Table of Contents
 
 * [Installation](#installation)
